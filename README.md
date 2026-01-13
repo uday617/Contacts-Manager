@@ -119,6 +119,3 @@ Deployment (Netlify + Render)
 
 Dev Shukal
 Aspiring Full Stack Developer 
-
-
-B
