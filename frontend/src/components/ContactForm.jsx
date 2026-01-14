@@ -27,14 +27,14 @@ export default function ContactForm({
     e.preventDefault();
 
     if (selectedContact) {
-      // 🔵 UPDATE
+      //  UPDATE
       await updateContact(selectedContact._id, form);
     } else {
-      // 🟢 CREATE
+      //  CREATE
       await createContact(form);
     }
 
-    // 🔹 Reset to Add mode
+    //  Reset to Add mode
     setForm({ name: '', email: '', phone: '' });
     clearSelection();
     refresh();
